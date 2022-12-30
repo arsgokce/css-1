@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(131, 131, 131);
+    font-family: sans-serif;
+    
+}
+.top-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(177, 177, 179);
+    border-radius: 14px;
+}
+.top-bar li {
+    display: inline;
+}
+.top-bar a {
+    display: block;
+    float: left;
+    border-right: rgb(238, 238, 238) 2px hidden ;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.top-bar a:hover {
+    opacity: 0.5;
+    background-color: rgb(91, 159, 36);
+    border-radius: 14px;
+}
+.active {
+    display: block;
+    border-radius: 14px;
+    background-color: rgb(100, 237, 141);
+}
+.container {
+    padding-top: 30px; ;
+    width: 65%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 10%;
+    background-color: #333333;
+    color: white;
+}
